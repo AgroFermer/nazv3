@@ -9,8 +9,8 @@ BOT_TOKEN = '6322183003:AAFWm2JvSsC7YjCQakenFymgK3GUq1EZ9Jc'
 CHANNEL_ID = -1001871817760
 ADMIN_ID = 430692329
 async def approve_request (chat_join: ChatJoinRequest, bot: Bot):
-   msg= f"Ваша заявка одобрена!\n\nВступить в канал: https://t.me/+sI_5vIeyBMYxZGIy"
-   button = InlineKeyboardButton(text='ВСТУПИТЬ', url='https://t.me/+sI_5vIeyBMYxZGIy', disable_web_page_preview=True)   
+   msg= f"Ваша заявка одобрена!\n\nВступить в канал: https://t.me/+MpOp9lRZngNhNzUy"
+   button = InlineKeyboardButton(text='ВСТУПИТЬ', url='https://t.me/+MpOp9lRZngNhNzUy', disable_web_page_preview=True)   
    markup = InlineKeyboardMarkup(inline_keyboard=[[button]])
 
 
